@@ -1,30 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
+import ItemlistContainer from './components/ItemlistContainer';
+import NavReactBoost from './components/NavReactBoost';
+import NavMui from './components/ResponsiveAppBar';
+import NavBMui from './components/ResponsiveAppBar';
+import ResponsiveAppBar from './components/ResponsiveAppBar';
+
 
 
 function App() {
 
 return (
-    <div className="App">
-      <NavBar/>
+  <>
+    
+      {/*<NavBar/>*/}n
+      {/*<NavReactBoost/>*/}
+      
+      <ResponsiveAppBar/>
+      <h2> Hola Juan Carlos</h2>
+      <ItemlistContainer />
 
-      <header className="App-header">
-        <h1> hola juan carlos</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </>
   );
 }
 
