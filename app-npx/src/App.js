@@ -7,6 +7,9 @@ import NavReactBoost from './components/NavReactBoost';
 import NavMui from './components/ResponsiveAppBar';
 import NavBMui from './components/ResponsiveAppBar';
 import ResponsiveAppBar from './components/ResponsiveAppBar';
+import Contador from './components/Contador';
+
+
 
 
 
@@ -20,7 +23,10 @@ return (
       
       <ResponsiveAppBar/>
       <h2> Hola Juan Carlos</h2>
-      <ItemlistContainer />
+
+      <Contador />
+       
+
 
       </>
   );
