@@ -1,35 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './components/NavBar';
-import ItemlistContainer from './components/ItemlistContainer';
-import NavReactBoost from './components/NavReactBoost';
-import NavMui from './components/ResponsiveAppBar';
-import NavBMui from './components/ResponsiveAppBar';
-import ResponsiveAppBar from './components/ResponsiveAppBar';
-import Contador from './components/Contador';
+import React from 'react';
+import ItemListContainer from './components/ItemListContainer.jsx';
+import ResponsiveAppBar from './components/ResponsiveAppBar.jsx';
+
+import './style.css';
 
 
-
-
-
-function App() {
-
-return (
-  <>
-    
-      {/*<NavBar/>*/}n
-      {/*<NavReactBoost/>*/}
-      
+export default function App() {
+  return (
+    <>
       <ResponsiveAppBar/>
-      <h2> Hola Juan Carlos</h2>
 
-      <Contador />
-       
+      <h1> HOLA JUAN CARLOS QUERES TOMAR UNA BIRRA?</h1>
 
+      <ItemListContainer/>
 
       </>
   );
 }
-
-export default App;
